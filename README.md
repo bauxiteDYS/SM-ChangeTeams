@@ -1,4 +1,4 @@
-# SM-NT-ChangeTeams
+# SM-Dys-ChangeTeams
 Sourcemod plugin for Dystopia to allow changing teams with a command and forcing players to teams for admins
 
 Use the `!s`, `!p`, `!c`, commands to join Spectator, Punk and Corps teams respectively.  
