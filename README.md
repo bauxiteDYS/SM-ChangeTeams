@@ -1,9 +1,6 @@
-# SM-NT-ChangeTeams
-Sourcemod plugin for Neotokyo to allow changing teams with a command
+# SM-ChangeTeams
+Sourcemod plugin to allow changing teams with a command and forcing players to teams
 
-Use the `!s`, `!j`, `!n`, commands to join Spectator, Jinrai and NSF teams respectively.
-
-# Building
-## Requirements
-* SourceMod 1.7 or newer
-* [SourceMod Neotokyo include](https://github.com/softashell/sourcemod-nt-include)
+Supports Neotokyo and Dystopia, use the correct branch:
+- Dystopia: https://github.com/bauxiteDYS/SM-ChangeTeams/tree/dys
+- Neotokyo: https://github.com/bauxiteDYS/SM-ChangeTeams/tree/nt
