@@ -15,7 +15,7 @@ public Plugin myinfo = {
 	name = "Dys Team join chat commands, and admin force",
 	description = "Use !s, !p, !c, to join Spec, Punks and Corps teams respectively, add f to force",
 	author = "bauxite, rain",
-	version = "0.1.0",
+	version = "0.1.1",
 	url = "",
 };
 
@@ -23,9 +23,9 @@ public void OnPluginStart()
 {
 	LoadTranslations("common.phrases");
 	
-	RegConsoleCmd("sm_p", Cmd_Switch);
-	RegConsoleCmd("sm_c", Cmd_Switch);
-	RegConsoleCmd("sm_s", Cmd_Switch);
+	RegConsoleCmd("sm_p", Cmd_Switch, "Change to Punks team");
+	RegConsoleCmd("sm_c", Cmd_Switch, "Change to Corps team");
+	RegConsoleCmd("sm_s", Cmd_Switch, "Change to Spectator team");
 	
 	RegAdminCmd("sm_pf", Cmd_SwitchForce, ADMFLAG_GENERIC);
 	RegAdminCmd("sm_cf", Cmd_SwitchForce, ADMFLAG_GENERIC);
